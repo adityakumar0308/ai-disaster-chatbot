@@ -1,95 +1,122 @@
+Here's an improved version of your `README.md` with a more human-friendly tone, better structure, and the additional information included:
+
+---
+
 # 🌪️ AI Disaster Chatbot
 
-A lightweight AI-powered chatbot that helps users during natural disasters by providing guidance, safety protocols, and actionable steps. Built with **FastAPI**, **TinyLlama**, and **FAISS**, this chatbot uses a **Retrieval-Augmented Generation (RAG)** approach to combine real-world disaster knowledge with open-ended reasoning.
+A lightweight, AI-powered chatbot designed to assist users during natural disasters by providing crucial guidance, safety protocols, and actionable steps. Powered by **FastAPI**, **TinyLlama**, and **FAISS**, this chatbot combines real-world disaster knowledge with open-ended reasoning using a **Retrieval-Augmented Generation (RAG)** approach.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- 🔍 Semantic search using **FAISS**
-- 🤖 Fast, quantized **TinyLlama-1.1B-Chat** model for chatbot responses
-- 🧠 Hybrid RAG system (context-aware when relevant, fallback to general chat when not)
-- ⚡ Lightweight, fast, and deployable on free-tier services like **Render**
-- 🔌 Easily integratable into **Wix**, websites, and mobile apps via REST API
+- **🔍 Semantic Search**: Uses **FAISS** for fast, contextually aware search of disaster-related content.
+- **🤖 Fast AI Responses**: Powered by the quantized **TinyLlama-1.1B-Chat** model for quick, relevant answers.
+- **🧠 Hybrid RAG System**: Context-aware when needed; falls back to general chat when necessary.
+- **⚡ Lightweight & Fast**: Optimized for quick deployment on free-tier services like **Render**.
+- **🔌 Easy Integration**: Can be seamlessly embedded into **Wix**, websites, and mobile apps via a REST API.
 
 ---
 
-## 🗂️ Folder Structure
+## 🗂️ Project Structure
 
-ai-disaster-chatbot/ ├── app/ │ ├── main.py # FastAPI backend │ ├── disaster_index.faiss # Vector index for semantic search │ ├── disaster_metadata.json # Indexed metadata chunks │ └── models/ │ └── all-MiniLM-L6-v2/ # Embedding model (optional, auto-downloadable) ├── requirements.txt # All Python dependencies ├── .gitignore # Ignore cache and temp files └── README.md # You're reading it!
+Here's the breakdown of the project folder structure:
 
-yaml
-Copy
-Edit
+```
+ai-disaster-chatbot/
+├── app/
+│   ├── main.py               # FastAPI backend
+│   ├── disaster_index.faiss  # Vector index for semantic search
+│   ├── disaster_metadata.json # Metadata for indexed chunks
+│   └── models/
+│       └── all-MiniLM-L6-v2/ # Embedding model (auto-downloadable)
+├── requirements.txt          # Python dependencies
+├── .gitignore                # Ignore cache and temp files
+└── README.md                 # You're reading it!
+```
 
 ---
 
 ## 🛠️ Setup Instructions
 
-### 🔁 Clone the Repo
+### 1️⃣ Clone the Repository
+
+Start by cloning the repository to your local machine:
 
 ```bash
 git clone https://github.com/adityakumar0308/ai-disaster-chatbot.git
 cd ai-disaster-chatbot
-📦 Install Dependencies
-bash
-Copy
-Edit
+```
+
+### 2️⃣ Install Dependencies
+
+Make sure you have Python 3.10+ installed, then install the required dependencies:
+
+```bash
 pip install -r requirements.txt
-Ensure youre using Python 3.10+ for compatibility.
+```
 
-🚀 Run the Server
-bash
-Copy
-Edit
+### 3️⃣ Run the Server
+
+To start the FastAPI server, run:
+
+```bash
 uvicorn app.main:app --host 0.0.0.0 --port 8000
-API will be available at: http://localhost:8000/docs
+```
 
-🤖 How It Works
-User sends a message like “What should I do in a flood?”
+Your API will now be live at [http://localhost:8000/docs](http://localhost:8000/docs), where you can interact with the chatbot and explore its API documentation.
 
-The query is embedded using all-MiniLM-L6-v2
+#### 🚀 Run FastAPI with Uvicorn on a different port
 
-FAISS searches for top relevant chunks from your custom disaster dataset
+If you'd prefer to run the server on port `10000`, use the following command:
 
-If relevance is high, the context + query is passed to TinyLlama
+```bash
+uvicorn app.main:app --host 0.0.0.0 --port 10000
+```
 
-If not, the model responds generically using just the query
+---
 
-Final answer is returned in a chatbot-friendly format
+## 🤖 How It Works
 
-🧠 Technologies Used
-FastAPI
+Here’s the step-by-step breakdown of how the chatbot functions:
 
-TinyLlama (quantized for speed)
+1. **User Input**: The user asks a question like "What should I do in a flood?"
+2. **Embedding**: The query is embedded using the **all-MiniLM-L6-v2** model.
+3. **FAISS Search**: FAISS performs a semantic search to find the most relevant disaster-related information.
+4. **Contextual Response**: If the retrieved content is relevant, it's passed to **TinyLlama** for a context-aware response.
+5. **Fallback Response**: If the relevance is low, **TinyLlama** provides a generic answer.
+6. **Final Answer**: The chatbot responds with a human-friendly, helpful answer.
 
-FAISS for semantic retrieval
+---
 
-Sentence-Transformers for embeddings
+## 🧠 Technologies Used
 
-🌐 Deployment Guide (Render)
-Push this repo to GitHub
+- **FastAPI** for building the backend and API endpoints
+- **TinyLlama** (quantized for speed) for generating chatbot responses
+- **FAISS** by Facebook AI Research for efficient semantic search
+- **Sentence-Transformers** for generating embeddings from user queries
 
-Go to Render.com
+---
 
-Create a new Web Service
+## 🌐 Deployment Guide (Render)
 
-Set:
+Deploy the chatbot on **Render** for easy, scalable hosting. Here’s how to do it:
 
-Build Command: pip install -r requirements.txt
+1. Push your repo to GitHub.
+2. Go to [Render.com](https://render.com) and create a new Web Service.
+3. Set the following options:
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `uvicorn app.main:app --host 0.0.0.0 --port 10000`
+   - **Python Version**: 3.10+
+4. Add your Hugging Face token as an environment variable if necessary.
 
-Start Command: uvicorn app.main:app --host 0.0.0.0 --port 10000
+---
 
-Python version: 3.10+
+## 💬 Wix Integration
 
-Add your Hugging Face token as an environment variable if needed
+You can integrate this chatbot into your **Wix** site with just a few lines of JavaScript. Here’s an example:
 
-💬 Wix Integration
-Add this to your Wix frontend JavaScript:
-
-js
-Copy
-Edit
+```javascript
 fetch("https://your-api-url.onrender.com/query", {
   method: "POST",
   headers: { "Content-Type": "application/json" },
@@ -100,30 +127,43 @@ fetch("https://your-api-url.onrender.com/query", {
   // Display chatbot response
   console.log(data.answer);
 });
-🧾 API Reference
-POST /query
+```
 
-json
-Copy
-Edit
-Request:
+---
+
+## 🧾 API Reference
+
+### POST /query
+
+#### Request Example:
+
+```json
 {
   "query": "How can I stay safe during a cyclone?"
 }
+```
 
-Response:
+#### Response Example:
+
+```json
 {
   "answer": "Make sure your phone is charged, stay indoors, and listen to local authorities for updates."
 }
+```
 
+---
 
-🙌 Acknowledgements
-Hugging Face
+## 🙌 Acknowledgements
 
-Sentence Transformers
+A big thank you to the following libraries and teams that made this possible:
 
-FAISS by Facebook AI Research
+- **Hugging Face** for their powerful models.
+- **Sentence Transformers** for embeddings.
+- **FAISS** by Facebook AI Research for semantic search.
+- **TinyLlama Team** for the lightweight model.
+- And finally, a special thanks to all contributors who help improve disaster response!
 
-TinyLlama Team
+---
 
-Made with ❤️ to help people in disaster situations.
+This project was created with ❤️ to assist people in disaster situations, providing them with accurate, quick guidance when they need it most.
+
