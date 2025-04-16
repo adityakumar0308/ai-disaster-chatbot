@@ -115,8 +115,7 @@ Response:
 {
   "answer": "Make sure your phone is charged, stay indoors, and listen to local authorities for updates."
 }
-📜 License
-MIT License. Use, adapt, and build on it freely!
+
 
 🙌 Acknowledgements
 Hugging Face
