@@ -8,6 +8,19 @@ import torch
 
 app = FastAPI()
 
+from fastapi.middleware.cors import CORSMiddleware
+
+# Allow CORS (you can specify your Wix domain here)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Replace with ["https://yourwixdomain.com"] for more security
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+
 # Load embedding model
 embed_model = SentenceTransformer("models/all-MiniLM-L6-v2")
 
