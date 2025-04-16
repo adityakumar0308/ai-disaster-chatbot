@@ -1,0 +1,3 @@
+# .huggingface.yaml
+title: "AI Disaster Chatbot"
+sdk: docker

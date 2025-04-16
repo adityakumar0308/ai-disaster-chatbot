@@ -1,0 +1,572 @@
+[
+  {
+    "content": "A cold wave is a period of marked and unusual cold weather characterized by a sharp and significant drop in air temperature near the surface (maximum, minimum, and daily average) over a large area, persisting below certain thresholds for at least two consecutive days during the cold season.",
+    "disaster": "Cold Wave",
+    "section": "definition"
+  },
+  {
+    "content": "WMO, 2020",
+    "disaster": "Cold Wave",
+    "section": "source"
+  },
+  {
+    "content": "name: Dzud\ndescription: A cold-season disaster involving heavy snow and severe cold or land-surface conditions such as snow/ice cover and lack of pasture, leading to reduced forage and high livestock mortality during winter–spring.\nname: Blizzard\ndescription: A severe snowstorm characterized by poor visibility, usually occurring at high-latitude and in mountainous regions.",
+    "disaster": "Cold Wave",
+    "section": "associated_hazards"
+  },
+  {
+    "content": "Index: Daily values of maximum (Tmax), minimum (Tmin), and/or average temperature. May also include temperature change in the 24 hours prior to onset.\nThreshold: Determined based on historical temperature values.\nTemporal: Conditions must persist for at least two consecutive days.\nSpatial: Percentage of weather stations crossing the threshold; location of impacted areas using coordinates; optional use of GIS for area, magnitude, and severity.",
+    "disaster": "Cold Wave",
+    "section": "parameters"
+  },
+  {
+    "content": "health_impacts: Increased mortality from ischaemic heart disease and cerebrovascular disease.\nHigher incidence of respiratory problems in children.\nIncrease in arthritis and rheumatism.\nMental health deterioration across age groups.\nAdolescents living in cold homes have five times higher risk of multiple health problems.\nhousing_condition: Living in cold homes worsens health outcomes at any age and increases strain on the healthcare system.",
+    "disaster": "Cold Wave",
+    "section": "vulnerability"
+  },
+  {
+    "content": "Implement national cold wave warnings and cold weather action plans.\nRaise public awareness and promote preventive actions.",
+    "disaster": "Cold Wave",
+    "section": "risk_reduction_measures"
+  },
+  {
+    "content": "Have adequate winter clothing.\nStay indoors as much as possible.\nPrefer mittens over gloves; mittens provide more warmth and insulation.\nListen to radio, watch TV, and read newspapers for weather updates.\nDrink hot drinks regularly.\nTake care of elderly people and children.\nStore adequate water as pipes may freeze.\nHave emergency supplies ready.",
+    "disaster": "Cold Wave",
+    "section": "safety_tips"
+  },
+  {
+    "content": "Be Smart. Be Prepared.",
+    "disaster": "Cold Wave",
+    "section": "slogan"
+  },
+  {
+    "content": "A tropical cyclone is a cyclone of tropical origin of small diameter (some hundreds of kilometres) with a minimum surface pressure in some cases of less than 900 hPa, very violent winds and torrential rain; sometimes accompanied by thunderstorms. It usually contains a central region, known as the ‘eye’ of the storm, with light winds and a lightly clouded sky.",
+    "disaster": "Cyclone/Hurricane/Typhoon",
+    "section": "definition"
+  },
+  {
+    "content": "Hurricane\nTyphoon",
+    "disaster": "Cyclone/Hurricane/Typhoon",
+    "section": "alternate_names"
+  },
+  {
+    "content": "Indian Ocean and South Pacific: Tropical Cyclone\nAtlantic and Eastern North Pacific: Hurricane\nWestern North Pacific: Typhoon",
+    "disaster": "Cyclone/Hurricane/Typhoon",
+    "section": "regional_names"
+  },
+  {
+    "content": "North Atlantic and Caribbean: June to November (peak in August and September)\nEastern North Pacific: Mid-May to November\nNorth Indian Ocean: April to December (peaks in May and October)",
+    "disaster": "Cyclone/Hurricane/Typhoon",
+    "section": "seasonality"
+  },
+  {
+    "content": "Storm surge\nHeavy rain\nFlooding\nThunderstorms",
+    "disaster": "Cyclone/Hurricane/Typhoon",
+    "section": "associated_hazards"
+  },
+  {
+    "content": "Coastal regions\nAreas with shallow bathymetry and flat plains\nSmall Island Developing States\nPoorly constructed buildings in coastal zones",
+    "disaster": "Cyclone/Hurricane/Typhoon",
+    "section": "vulnerable_areas"
+  },
+  {
+    "content": "People in poor or fragile constructions\nCommunities in coastal areas\nPopulations on small islands",
+    "disaster": "Cyclone/Hurricane/Typhoon",
+    "section": "vulnerable_populations"
+  },
+  {
+    "content": "Climate change leading to more high-intensity cyclones\nEnvironmental degradation like deforestation\nUrbanization and unplanned coastal development",
+    "disaster": "Cyclone/Hurricane/Typhoon",
+    "section": "risk_factors"
+  },
+  {
+    "content": "predictability: Difficult due to sudden weakening or track changes\ntools: Numerical weather prediction models\nMonitoring by National Meteorological Services",
+    "disaster": "Cyclone/Hurricane/Typhoon",
+    "section": "early_warning_and_prediction"
+  },
+  {
+    "content": "economic: Damage to buildings, infrastructure, agriculture, and economies especially in small island states\nenvironmental: Flooding, erosion, pollution from overflow of waste systems\nhealth: Injuries, fatalities, waterborne disease spread",
+    "disaster": "Cyclone/Hurricane/Typhoon",
+    "section": "impact"
+  },
+  {
+    "content": "Evacuation exercises\nStructural measures to resist winds and flooding\nUrban planning and land use control\nAvoid building directly on coastline\nUse of flood- and wind-resistant construction materials\nGrey infrastructure like seawalls and levees\nNatural infrastructure like mangroves and coral reefs\nEducation and community awareness\nAnimal protection and evacuation planning",
+    "disaster": "Cyclone/Hurricane/Typhoon",
+    "section": "risk_reduction_measures"
+  },
+  {
+    "content": "name: Saffir-Simpson Hurricane Scale\npurpose: Classifies hurricanes by wind speed and potential damage",
+    "disaster": "Cyclone/Hurricane/Typhoon",
+    "section": "scales_or_classification"
+  },
+  {
+    "content": "before_cyclone: Ignore rumours, stay calm, don’t panic.\nKeep your mobile phones charged to ensure connectivity; use SMS.\nListen to radio, watch TV, read newspapers for weather updates.\nKeep your documents and valuables in waterproof containers.\nPrepare an emergency kit with essential items for safety and survival.\nSecure your house; carry out repairs; don’t leave sharp objects loose.\nUntie cattle/animals to ensure their safety.\nduring_after_cyclone: indoors: Switch off electrical mains, gas supply.\nKeep doors and windows shut.\nIf your house is unsafe, leave early before the onset of a cyclone.\nListen to radio/transistor.\nDrink boiled/chlorinated water.\nRely only on official warnings.\noutdoors: Do not enter damaged buildings.\nWatch out for broken electric poles and wires, and other sharp objects.\nSeek a safe shelter as soon as possible.\nfishermen_should: Keep a radio set with extra batteries handy.\nKeep boats/rafts tied up in a safe place.\nNot venture out into the sea.",
+    "disaster": "Cyclone/Hurricane/Typhoon",
+    "section": "preparedness_measures"
+  },
+  {
+    "content": "A drought is a period of abnormally dry weather characterized by a prolonged deficiency of precipitation below a certain threshold over a large area and a period longer than a month (WMO, 2020).",
+    "disaster": "Drought",
+    "section": "definition"
+  },
+  {
+    "content": "",
+    "disaster": "Drought",
+    "section": "alternate_names"
+  },
+  {
+    "content": "Meteorological drought: Occurs when dry weather patterns dominate an area, usually defined based on the degree of dryness and the duration of the dry period.\nAgricultural drought: Occurs when agricultural production is affected due to precipitation shortages, soil water deficits, and reduced groundwater availability.\nHydrological drought: Occurs when low water supply becomes evident, affecting surface and subsurface water resources.\nSocio-economic drought: Relates to supply and demand imbalances of economic goods due to weather-related water shortages.",
+    "disaster": "Drought",
+    "section": "types"
+  },
+  {
+    "content": "Desertification\nWater scarcity\nCrop failure\nFood insecurity\nWildfires",
+    "disaster": "Drought",
+    "section": "associated_hazards"
+  },
+  {
+    "content": "Arid and semi-arid regions\nAfrican Sahel\nSouthern Africa\nRegions dependent on rain-fed agriculture",
+    "disaster": "Drought",
+    "section": "vulnerable_areas"
+  },
+  {
+    "content": "Poor rural households dependent on rain-fed agriculture\nCommunities with weak water infrastructure\nDisplaced populations due to drought-induced migration",
+    "disaster": "Drought",
+    "section": "vulnerable_populations"
+  },
+  {
+    "content": "Deficient or erratic rainfall\nPoverty and rural vulnerability\nPoor water and soil management\nWeak or ineffective governance\nClimate change",
+    "disaster": "Drought",
+    "section": "risk_factors"
+  },
+  {
+    "content": "predictability: Difficult, as droughts develop gradually and vary in duration and intensity.\ntools: Standardized Precipitation Index (SPI) for measuring meteorological droughts\nDrought monitoring and early warning systems\nNational Drought Management Policy Guidelines (IDMP, WMO, GWP)",
+    "disaster": "Drought",
+    "section": "early_warning_and_prediction"
+  },
+  {
+    "content": "economic: Reduced agricultural yields, increased food prices, economic losses in farming communities.\nenvironmental: Soil degradation, loss of biodiversity, increased risk of wildfires.\nhealth: Malnutrition, waterborne diseases, heat-related illnesses.",
+    "disaster": "Drought",
+    "section": "impact"
+  },
+  {
+    "content": "Drought risk identification, impact assessment, and early warning.\nImplementation of water-saving practices and sustainable land management.\nPolicy and governance improvements for drought risk management.\nDrought awareness and knowledge management to build resilience.\nDevelopment of anticipatory actions to mitigate drought impacts before they occur.",
+    "disaster": "Drought",
+    "section": "risk_reduction_measures"
+  },
+  {
+    "content": "before_drought: Monitor rainfall and soil moisture levels.\nDevelop sustainable water management plans.\nEducate communities about drought risks and conservation techniques.\nduring_drought: Implement water rationing measures.\nSupport affected communities with drought relief programs.\nPromote drought-tolerant crops and alternative livelihoods.\nafter_drought: Restore degraded land through reforestation and soil conservation.\nImprove water storage and irrigation infrastructure.\nReview and improve drought management policies.",
+    "disaster": "Drought",
+    "section": "preparedness_measures"
+  },
+  {
+    "content": "name: Standardized Precipitation Index (SPI)\npurpose: Measures meteorological droughts based on rainfall data.",
+    "disaster": "Drought",
+    "section": "scales_or_classification"
+  },
+  {
+    "content": "An earthquake is a sudden slip on a fault, resulting in ground shaking and radiated seismic energy caused by the slip, volcanic or magmatic activity, or other stress changes in the Earth (USGS).",
+    "disaster": "Earthquake",
+    "section": "definition"
+  },
+  {
+    "content": "",
+    "disaster": "Earthquake",
+    "section": "alternate_names"
+  },
+  {
+    "content": "",
+    "disaster": "Earthquake",
+    "section": "types"
+  },
+  {
+    "content": "Landslides\nTsunamis\nStructural collapse\nFires\nLiquefaction",
+    "disaster": "Earthquake",
+    "section": "associated_hazards"
+  },
+  {
+    "content": "Pacific Rim (Ring of Fire)\nAreas along active tectonic boundaries\nDensely populated urban centers near fault lines",
+    "disaster": "Earthquake",
+    "section": "vulnerable_areas"
+  },
+  {
+    "content": "Residents in poorly built or non-engineered buildings\nPeople in densely populated cities in seismic zones\nLow-income communities with limited access to disaster-resistant infrastructure",
+    "disaster": "Earthquake",
+    "section": "vulnerable_populations"
+  },
+  {
+    "content": "Population density in earthquake-prone zones\nProximity to active tectonic boundaries\nPoorly built and non-engineered structures\nPoverty leading to substandard housing\nLack of earthquake preparedness and awareness",
+    "disaster": "Earthquake",
+    "section": "risk_factors"
+  },
+  {
+    "content": "predictability: Geophysicists can identify earthquake-prone zones, but the exact time and severity of an earthquake cannot be predicted.\ntools: Seismic early warning systems\nSeismographs for real-time earthquake detection\nMoment magnitude scale (Mw) for measuring earthquake size",
+    "disaster": "Earthquake",
+    "section": "early_warning_and_prediction"
+  },
+  {
+    "content": "economic: Infrastructure destruction, business losses, economic instability in affected areas.\nenvironmental: Landslides, soil liquefaction, ground rupture, and tsunamis.\nhealth: Casualties due to collapsing buildings, injuries from falling debris, post-earthquake diseases due to lack of sanitation and medical services.",
+    "disaster": "Earthquake",
+    "section": "impact"
+  },
+  {
+    "content": "Seismic risk integration into land-use planning and urban development.\nStrict enforcement of earthquake-resistant building codes.\nDevelopment and maintenance of early warning systems.\nPublic education and preparedness training in schools and workplaces.\nImplementation of emergency response measures, including gas and electricity cut-off systems.",
+    "disaster": "Earthquake",
+    "section": "risk_reduction_measures"
+  },
+  {
+    "content": "before_earthquake: Ensure buildings comply with seismic safety regulations.\nCreate and practice emergency response plans.\nSecure heavy furniture and hazardous materials.\nduring_earthquake: Follow 'Drop, Cover, and Hold On' guidelines.\nAvoid windows, heavy objects, and unsecured furniture.\nIf outdoors, stay away from buildings, trees, and power lines.\nafter_earthquake: Check for injuries and provide first aid.\nEvacuate if necessary and listen to emergency broadcasts.\nInspect buildings for structural damage before re-entering.",
+    "disaster": "Earthquake",
+    "section": "preparedness_measures"
+  },
+  {
+    "content": "Richter Scale: < 3.5: Generally not felt, but recorded.\n3.5 - 5.5: Felt, but rarely causing any damage.\n5.6 - 6.0: Slight damage to well-constructed buildings, heavy damage to poorly constructed buildings.\n6.1 - 6.9: May damage inhabited areas up to 100 km wide.\n7.0 - 7.9: Major earthquake that may cause serious damage in a very wide area.\n8.0 - 8.9: Serious earthquake that causes damage hundreds of kilometres away from the epicentre.\n9.0+: Rare great earthquake, major damage in a large region of over 1,000 km.\nModified Mercalli Intensity Scale: Purpose: Measures seismic intensity based on observed effects and human perception.",
+    "disaster": "Earthquake",
+    "section": "scales_or_classification"
+  },
+  {
+    "content": "Flooding is an overflowing of water onto land that is normally dry (NOAA).",
+    "disaster": "Flood",
+    "section": "definition"
+  },
+  {
+    "content": "",
+    "disaster": "Flood",
+    "section": "alternate_names"
+  },
+  {
+    "content": "Coastal flood: Coastal flooding is most frequently the result of storm surges and high winds coinciding with high tides. The surge itself is the result of the raising of sea levels due to low atmospheric pressure.\nFluvial flood: A fluvial flood is a rise, usually brief, in the water level of a stream or water body to a peak from which the water level recedes at a slower rate.\nFlash flood: A flash flood is a flood of short duration with a relatively high peak discharge in which the time interval between the observable causative event and the flood is less than four to six hours.\nGlacial Lake Outburst Flood: A glacial lake outburst flood describes a sudden release of a significant amount of water retained in a glacial lake, irrespective of the cause.",
+    "disaster": "Flood",
+    "section": "types"
+  },
+  {
+    "content": "Landslides\nWater contamination\nElectrocution\nInfrastructure damage\nVector-borne diseases",
+    "disaster": "Flood",
+    "section": "associated_hazards"
+  },
+  {
+    "content": "Developing countries\nAsia (most flood-affected continent)\nAfrica and Latin America\nHigh-risk locations like slopes, flood plains, ravines\nUrban low-lying areas in mega-cities",
+    "disaster": "Flood",
+    "section": "vulnerable_areas"
+  },
+  {
+    "content": "People in informal settlements\nPoor and marginalized communities\nElderly, disabled, and very young\nThose living in flood-prone rural or urban areas",
+    "disaster": "Flood",
+    "section": "vulnerable_populations"
+  },
+  {
+    "content": "Rapid population growth\nRapid urbanization\nEnvironmental degradation (e.g., deforestation)\nClimate change\nMelting glaciers\nRising sea levels",
+    "disaster": "Flood",
+    "section": "risk_factors"
+  },
+  {
+    "content": "predictability: Moderate; depends on weather monitoring and geographic factors.\ntools: Weather forecasts and alerts\nRiver and rainfall monitoring\nIntegrated Flood Management (IFM) systems\nEmergency drills and community preparedness exercises",
+    "disaster": "Flood",
+    "section": "early_warning_and_prediction"
+  },
+  {
+    "content": "economic: Damage to homes, infrastructure, crops, and businesses; increased insurance claims.\nenvironmental: Erosion, pollution of water bodies, destruction of natural habitats.\nhealth: Increased risk of waterborne diseases, malaria, injuries, and death.",
+    "disaster": "Flood",
+    "section": "impact"
+  },
+  {
+    "content": "Integrate flood risk assessment into urban planning strategies.\nAvoid building on flood-prone land.\nDevelop new building codes to reinforce flood resistance.\nCreate more space for rivers, floodplains, and wetlands.\nEnsure the health of coastal reefs and mangrove plantations.\nMaintain early warning systems and conduct evacuation drills.\nHave evacuation plans for vulnerable groups.\nImplement finance and insurance schemes for protection.\nProtect and evacuate animals during floods.",
+    "disaster": "Flood",
+    "section": "risk_reduction_measures"
+  },
+  {
+    "content": "before_flood: Ignore rumours, stay calm, and don't panic.\nKeep mobile phones charged; use SMS for emergency communication.\nListen to radio, watch TV, read newspapers for updates.\nKeep animals secured.\nPrepare an emergency kit with essentials and first aid.\nKeep documents and valuables in water-proof bags.\nduring_flood: Don't enter floodwaters; wear suitable footwear if needed.\nAvoid sewerage lines, gutters, and drains.\nStay away from electric poles and fallen power lines.\nEat only freshly cooked or dry food.\nDrink only boiled or chlorinated water.\nUse disinfectants to keep surroundings clean.\nafter_flood: Do not allow children to play in or near floodwaters.\nAvoid using damaged electrical goods until checked.\nWatch for broken wires, sharp debris, and damaged poles.\nDo not eat food that was in floodwaters.\nUse mosquito nets to prevent malaria.\nAvoid using tap water if sewer systems are damaged.\nif_evacuation_is_necessary: Raise furniture and appliances on beds and tables.\nPut sandbags in toilet bowls and cover drains.\nTurn off power and gas at the mains.\nMove to higher/safer shelters.\nTake emergency kits, first aid, and valuables.\nDo not enter deep or unknown waters; check depth with a stick.\nReturn home only when officials say it is safe.\nDisconnect electrical appliances (avoid touching if wet).\nDo not drive into flooded areas.\nA few centimetres of water can disable cars by stalling engines.",
+    "disaster": "Flood",
+    "section": "preparedness_measures"
+  },
+  {
+    "content": "name: No standard single scale, but typically uses river gauge levels, rainfall thresholds, or hazard maps.\npurpose: To predict, monitor, and assess the severity and impact of flooding events.",
+    "disaster": "Flood",
+    "section": "scales_or_classification"
+  },
+  {
+    "content": "A heatwave is a marked warming of the air, or the invasion of very warm air, over a large area; it usually lasts from a few days to a few weeks (WMO, 1992).",
+    "disaster": "Heatwave",
+    "section": "definition"
+  },
+  {
+    "content": "Extreme Heat",
+    "disaster": "Heatwave",
+    "section": "alternate_names"
+  },
+  {
+    "content": "Dry Heatwave: Occurs in arid and semi-arid regions, typically characterized by high temperatures and low humidity.\nHumid Heatwave: Occurs in tropical and coastal regions, characterized by high temperatures combined with high humidity, which reduces the body's ability to cool down.\nUrban Heatwave: Exacerbated by urban heat island effects where built environments retain heat, especially during nighttime.",
+    "disaster": "Heatwave",
+    "section": "types"
+  },
+  {
+    "content": "Wildfire\nDrought\nCyclones\nUrban heat islands\nHazardous air quality\nInfrastructure stress (e.g., power outages)",
+    "disaster": "Heatwave",
+    "section": "associated_hazards"
+  },
+  {
+    "content": "Inland deserts\nSemi-deserts\nMediterranean-type climates\nUrban areas (due to urban heat island effect)\nDensely built, low-income neighborhoods",
+    "disaster": "Heatwave",
+    "section": "vulnerable_areas"
+  },
+  {
+    "content": "Elderly\nChildren\nPregnant women\nUnderprivileged social groups\nPoor people without access to cooling or green spaces\nOutdoor workers (especially in Africa, Arab states, Asia, and the Pacific)",
+    "disaster": "Heatwave",
+    "section": "vulnerable_populations"
+  },
+  {
+    "content": "Climate change\nUrbanization\nAir pollution\nLack of green infrastructure\nSocioeconomic inequality\nLimited access to healthcare or cooling facilities",
+    "disaster": "Heatwave",
+    "section": "risk_factors"
+  },
+  {
+    "content": "predictability: Moderate to high; meteorological data and historical trends can be used.\ntools: Early warning systems\nTemperature and humidity monitoring\nUrban heat island modeling\nHeat-health alert systems\nMulti-hazard risk assessments\nLocal weather updates via radio, TV, and newspapers",
+    "disaster": "Heatwave",
+    "section": "early_warning_and_prediction"
+  },
+  {
+    "content": "economic: US$863 billion in potential income losses (2022) due to reduced labour productivity and health-related impacts.\nenvironmental: Aggravates drought, wildfires, and deteriorates air quality.\nhealth: Estimated 489,000 heat-related deaths annually (2000–2019); cardiovascular stress, dehydration, heatstroke, increase in non-fatal injuries (22.85 million) and deaths (18,970/year among workers).",
+    "disaster": "Heatwave",
+    "section": "impact"
+  },
+  {
+    "content": "Implement early warning systems and heat-health alert mechanisms.\nEstablish cooling centres for public use during extreme heat.\nIntegrate heatwave risk into urban planning and public health policies.\nDevelop green corridors and expand tree coverage.\nUse reflective or cool roofing and pavements.\nProtect animals from extreme heat conditions.\nRaise community awareness and prepare vulnerable populations.\nImprove occupational safety with appropriate heat stress prevention protocols.\nPromote renewable energy and reduce fossil fuel use as part of climate adaptation.",
+    "disaster": "Heatwave",
+    "section": "risk_reduction_measures"
+  },
+  {
+    "content": "before_heatwave: Monitor weather updates on radio, TV, or newspapers.\nIdentify vulnerable individuals and ensure they have access to cooling.\nPlan access to shaded or air-conditioned areas.\nHydrate adequately and wear light clothing.\nEducate communities on heatwave safety.\nduring_heatwave: Drink sufficient water – even if not thirsty.\nUse ORS (Oral Rehydration Solution), or homemade drinks like lassi, rice water (torani), lemon water, and buttermilk to stay hydrated.\nWear lightweight, light-colored, loose cotton clothes.\nCover your head using a cloth, hat, or umbrella.\nStay indoors during peak heat hours.\nKeep animals in the shade and give them plenty of water.\nDo not leave children or pets in parked vehicles.\nafter_heatwave: Assess for any heat-related health symptoms.\nContinue hydration and rest.\nSupport community recovery and health outreach.\nReport any power or water issues to authorities.",
+    "disaster": "Heatwave",
+    "section": "preparedness_measures"
+  },
+  {
+    "content": "Move vulnerable individuals to cooling shelters or air-conditioned buildings.\nBring water, light clothes, and medications.\nDo not delay if advised by health or weather authorities.\nPlan evacuation in advance during long heatwave alerts.",
+    "disaster": "Heatwave",
+    "section": "if_evacuation_is_necessary"
+  },
+  {
+    "content": "name: No universal classification system; thresholds vary by region and climate.\npurpose: To trigger public health alerts, manage urban risk, and guide response strategies based on local climatic and population sensitivity.",
+    "disaster": "Heatwave",
+    "section": "scales_or_classification"
+  },
+  {
+    "content": "Landslide is the downslope movement of soil, rock and organic materials under the effects of gravity, which occurs when the gravitational driving forces exceed the frictional resistance of the material resisting on the slope (Varnes, 1978).",
+    "disaster": "Landslide",
+    "section": "definition"
+  },
+  {
+    "content": "Terrestrial: Occurs on land due to gravitational pull on unstable slopes.\nSubmarine: Occurs under water; can trigger tsunamis.\nRockfalls: Sudden free fall of rocks from cliffs or steep slopes.\nDebris Flows: Flow of soil, rock, and organic material saturated with water.",
+    "disaster": "Landslide",
+    "section": "types"
+  },
+  {
+    "content": "Glacier or snow melts\nHeavy rains and water pressure\nEarthquakes\nVolcanic eruptions\nOverly steep slopes\nHuman construction on unstable slopes",
+    "disaster": "Landslide",
+    "section": "causes"
+  },
+  {
+    "content": "Mountainous regions\nHilly terrain with steep slopes\nRiver valleys and areas near drainage paths\nUrbanized hillsides\nRoads or settlements near cliffs",
+    "disaster": "Landslide",
+    "section": "vulnerable_areas"
+  },
+  {
+    "content": "People living near steep slopes or in mountainous regions\nResidents in informal or unregulated housing areas\nPeople in areas with deforestation or poor drainage infrastructure",
+    "disaster": "Landslide",
+    "section": "vulnerable_populations"
+  },
+  {
+    "content": "Population growth\nRapid urbanization\nDeforestation\nEnvironmental degradation\nHigh rainfall\nPoor land use practices",
+    "disaster": "Landslide",
+    "section": "risk_factors"
+  },
+  {
+    "content": "predictability: Low, but improved with rainfall-based warning systems and instrumental monitoring.\ntools: Rainfall threshold monitoring\nGPS, extensometers, seismometers\nLiDAR and satellite imagery\nAerial photography",
+    "disaster": "Landslide",
+    "section": "early_warning_and_prediction"
+  },
+  {
+    "content": "economic: Damage to infrastructure, roads, and property; costs from disaster response and reconstruction.\nenvironmental: Loss of vegetation, soil erosion, and damage to ecosystems.\nhealth: Injury or loss of life due to burial or crushing, trauma, and displacement of communities.",
+    "disaster": "Landslide",
+    "section": "impact"
+  },
+  {
+    "content": "Implement early warning systems and hazard maps.\nIntegrate landslide risk assessment into urban planning.\nReinforce building codes and standards.\nStabilize slopes using drainage systems, tunnels, or retaining walls.\nPreserve forest cover and regulate deforestation.\nRaise public awareness and education.\nConduct regular drills and evacuation exercises.\nEstablish multi-level evacuation plans.",
+    "disaster": "Landslide",
+    "section": "risk_reduction_measures"
+  },
+  {
+    "content": "before_landslide: Grow more trees to hold the soil together.\nListen to radio, watch TV and read newspapers for alerts.\nKeep drains clean and holes open.\nWatch for signs like subsidence, muddy water, or cracks in rocks or buildings.\nAvoid construction near steep slopes or drainage paths.\nduring_landslide: Stay calm, do not panic or spread rumours.\nStay together with companions.\nMove away quickly from landslide path or downstream valley if warning signs appear (e.g., trees cracking, boulders knocking).\nInform nearest Tehsil/District HQ.\nafter_landslide: Avoid touching or walking over loose material or electric wires/poles.\nMove away from landslide path and downstream areas quickly.\nCheck for injured or trapped persons.\nDo not move an injured person unless they are in immediate danger.\nAvoid drinking contaminated water from rivers, springs, or wells.",
+    "disaster": "Landslide",
+    "section": "preparedness_measures"
+  },
+  {
+    "content": "Move to higher ground immediately when a landslide is imminent.\nFollow official evacuation orders promptly.\nTake essential supplies including food, water, and documents.\nAssist children, elderly, and persons with disabilities.",
+    "disaster": "Landslide",
+    "section": "if_evacuation_is_necessary"
+  },
+  {
+    "content": "name: No universally adopted classification scale; risk is typically assessed using hazard zoning and historical data.\npurpose: To prioritize high-risk areas and guide infrastructure planning and disaster response.",
+    "disaster": "Landslide",
+    "section": "scales_or_classification"
+  },
+  {
+    "content": "Technical or technological disasters are caused by sudden, intense events induced by human processes. These originate from technological or industrial conditions, dangerous procedures, infrastructure failures, or specific human activities.",
+    "disaster": "Technological Hazard",
+    "section": "definition"
+  },
+  {
+    "content": "Industrial activity with dangerous conditions or processes\nTransport system failures (land, sea, air)\nDefensive or offensive weapons systems malfunction\nPower plant failures\nInformation and communications technology (ICT) failures and cybersecurity threats",
+    "disaster": "Technological Hazard",
+    "section": "causes"
+  },
+  {
+    "content": "Computer viruses, worms, Trojan horses, malware\nSpoofing attacks and identity theft\nTheft, illegal disclosure, loss or contamination of data\nDisruption of essential infrastructure: communication, health, banking, energy, education, etc.",
+    "disaster": "Technological Hazard",
+    "section": "emerging_threats"
+  },
+  {
+    "content": "Ageing, abandoned or idle installations\nInsufficient institutional and legal capacities\nNatural hazards triggering industrial accidents (e.g. floods, earthquakes)",
+    "disaster": "Technological Hazard",
+    "section": "risk_factors"
+  },
+  {
+    "content": "Residential communities near industrial establishments",
+    "disaster": "Technological Hazard",
+    "section": "vulnerable_areas"
+  },
+  {
+    "content": "Assess risks before planning and building critical infrastructure\nDevelop policies for continuity management\nIntegrate cascading risk scenarios into planning\nCreate hazard maps identifying people at risk and their vulnerabilities\nDevelop national, regional, and local response plans\nEstablish early warning and monitoring systems\nEnsure evacuation and contingency plans are in place at all levels\nAssess safety of new technologies\nImprove crisis communication strategies\nConduct training and simulations for complex failures\nRaise awareness and educate on potential technological risks",
+    "disaster": "Technological Hazard",
+    "section": "risk_reduction_measures"
+  },
+  {
+    "content": "A tsunami is a series of travelling waves of extremely long length and period, usually generated by disturbances associated with undersea earthquakes, landslides, volcanic eruptions, or meteorite impacts.",
+    "disaster": "Tsunami",
+    "section": "definition"
+  },
+  {
+    "content": "Undersea or near-sea earthquakes (Richter scale > 7.5 for destructive tsunamis)\nUnderwater landslides\nVolcanic eruptions\nMeteorite impacts",
+    "disaster": "Tsunami",
+    "section": "causes"
+  },
+  {
+    "content": "Series of 10 or more waves\nWave crests arrive every 10–60 minutes\nWave lengths can reach up to 100 km\nHeights can be tens to hundreds of meters\nCapable of crossing entire oceans with little energy loss",
+    "disaster": "Tsunami",
+    "section": "characteristics"
+  },
+  {
+    "content": "Receding ocean water from the shoreline before the arrival of waves\nEarthquakes felt near coastal regions",
+    "disaster": "Tsunami",
+    "section": "early_warning_signs"
+  },
+  {
+    "content": "event: 2004 Indian Ocean Tsunami\ndate: 2004-12-26\nmagnitude: 9.1\norigin: Off the west coast of Sumatra, Indonesia\nimpact: countries_affected: 14\nwaves_height: up to 30 meters\ntravel_speed: up to 80 km/h in shallow water\ndeath_toll_estimates: UN: 227000\nTsunami Evaluation Coalition: 275000\naffected_regions: Indonesia (Aceh)\nSri Lanka\nIndia\nThailand\nMaldives\nMauritius\nEast coast of Africa",
+    "disaster": "Tsunami",
+    "section": "notable_events"
+  },
+  {
+    "content": "Coastal living in earthquake-prone zones\nPoor building construction near the shore\nDestruction of natural barriers like mangroves and reefs\nLack of coastal land-use planning\nTourist development in vulnerable coastal areas",
+    "disaster": "Tsunami",
+    "section": "risk_factors"
+  },
+  {
+    "content": "All oceanic and sea regions around the world\nParticularly the Pacific Ocean (most frequent large tsunamis)\nIndian Ocean coastal countries\nCaribbean and Mediterranean zones",
+    "disaster": "Tsunami",
+    "section": "vulnerable_areas"
+  },
+  {
+    "content": "Establish and maintain tsunami early warning systems (e.g., PTWS, IOTWMS, ICG-CARIBE-EWS, ICG-NEAMTWS)\nEducate the public about tsunami risks, signs, and safety actions\nCreate and disseminate hazard maps with clearly designated shelters and safe zones\nReinforce and elevate critical infrastructure and buildings away from the shoreline\nConstruct seawalls, revetments, and use natural barriers (dunes, mangroves, reefs)\nIntegrate indigenous knowledge in risk management\nPlace clear tsunami evacuation signage along roads\nImplement strict coastal zoning and land-use regulations\nIncorporate tsunami education into school curricula",
+    "disaster": "Tsunami",
+    "section": "risk_reduction_measures"
+  },
+  {
+    "content": "Pacific Tsunami Warning and Mitigation System (PTWS)\nIndian Ocean Tsunami Warning and Mitigation System (IOTWMS)\nCaribbean Early Warning System (ICG-CARIBE-EWS)\nNorth-Eastern Atlantic, Mediterranean and Connected Seas Tsunami Warning System (ICG-NEAMTWS)",
+    "disaster": "Tsunami",
+    "section": "tsunami_warning_systems"
+  },
+  {
+    "content": "before: Identify local tsunami evacuation routes and safe zones\nEducate communities on tsunami risks and early warning signs\nParticipate in tsunami drills and community preparedness programs\nduring: Immediately move inland or to higher ground after feeling an earthquake or seeing the ocean recede\nFollow official evacuation instructions\nDo not return to the coast until the all-clear is given\nafter: Avoid flooded areas and debris\nListen for official updates and instructions\nAssist others if safe to do so and report missing persons",
+    "disaster": "Tsunami",
+    "section": "response_measures"
+  },
+  {
+    "content": "Wildfires are any unplanned or uncontrolled fire affecting natural, cultural, industrial, and residential landscapes.",
+    "disaster": "Wildfire",
+    "section": "definition"
+  },
+  {
+    "content": "Human activity (accidental, carelessness, or arson)\nExtended droughts\nHigh temperatures\nExtreme weather events",
+    "disaster": "Wildfire",
+    "section": "causes"
+  },
+  {
+    "content": "Respiratory issues due to particulate matter and toxins in wood smoke\nCardiovascular, ophthalmic, and psychiatric problems\nExposure to pollutants like carbon monoxide, nitrogen dioxide, acetaldehyde, formaldehyde",
+    "disaster": "Wildfire",
+    "section": "health_impacts"
+  },
+  {
+    "content": "Droughts\nHeatwaves\nPost-fire landslides, mudslides, flash floods, erosion, and siltation",
+    "disaster": "Wildfire",
+    "section": "related_hazards"
+  },
+  {
+    "content": "Increased agricultural demand and land clearing by fire\nExpansion of infrastructure near fire-prone vegetation (Wildland Urban Interface)\nExtended periods of drought and extreme heat\nSoil erosion and land degradation due to repeated fires",
+    "disaster": "Wildfire",
+    "section": "risk_factors"
+  },
+  {
+    "content": "Agricultural and pasture lands using fire for clearing\nFire-prone natural forest, bushland, and grassland in subtropics or northern latitudes\nAgricultural and forest plantations\nResidential areas near flammable vegetation\nBuildings made of flammable materials\nAbandoned villages with no active fire management",
+    "disaster": "Wildfire",
+    "section": "vulnerable_areas"
+  },
+  {
+    "content": "Restrict development in high bushfire risk areas\nClear vegetation around structures\nConstruct firebreaks between homes and wild areas\nUse low-flammability vegetation and fire-resistant building materials\nApply prescribed burning practices for land and ecosystem management\nEnact and enforce fire management laws\nConduct community-based fire prevention and awareness programs\nProvide alerts using fire danger rating systems\nDevelop firefighting and public safety capacities",
+    "disaster": "Wildfire",
+    "section": "risk_reduction_measures"
+  },
+  {
+    "content": "before: Create a family wildfire safety plan\nClear flammable materials from surroundings\nPrepare emergency kit with essentials\nKnow escape routes and keep vehicles fueled\nInstall smoke detectors and fire extinguishers\nBack up important documents digitally or store in fireproof folders\nduring: Stay informed via alerts, radio, and apps\nEvacuate early if advised\nCover nose/mouth with a damp cloth or N95 mask\nWear full-body protective clothing\nAvoid driving in low-visibility smoke zones\nStay clear of valleys and depressions\nafter: Return only when authorities declare it safe\nAvoid damaged power lines, structures, and hot ash\nCheck property for hidden embers\nWear a mask while cleaning debris\nReport reignition or hazards to authorities",
+    "disaster": "Wildfire",
+    "section": "response_measures"
+  },
+  {
+    "content": "common_states: Uttarakhand\nHimachal Pradesh\nOdisha\nChhattisgarh\nMaharashtra\nNortheastern states\nlocal_measures: Use 'Van Agni Alert' app and FSI portal for fire tracking\nFollow NDMA and Forest Department advisories\nRespect seasonal bans on burning and forest boundaries\nCreate Village Forest Protection Committees (Van Suraksha Samitis)\nCoordinate evacuation with Gram Panchayats and local disaster teams\nKnow shelters designated by District Collectors or SDMA\nContact Forest Range Offices or emergency numbers like 112/102/1077",
+    "disaster": "Wildfire",
+    "section": "india_context"
+  },
+  {
+    "content": "An avalanche is a mass of snow and ice falling suddenly down a mountain slope, often taking with it earth, rocks, and debris (WMO, 1992).",
+    "disaster": "Avalanche",
+    "section": "definition"
+  },
+  {
+    "content": "frequency: Thousands of avalanches occur annually, killing an average of 500 people worldwide.\ncauses: Massive slabs of snow breaking loose from a mountainside\nRapid changes in weather and snowpack\nHuman activities such as skiing\nClimate change resulting in rising temperatures (0.2 to 0.4°C annually in some parts of the Himalayas)\ncharacteristics: Can reach speeds of 130 km/h within five seconds\nMost accidents occur when warnings are ignored\nSlab avalanches are the most dangerous and common",
+    "disaster": "Avalanche",
+    "section": "general_information"
+  },
+  {
+    "content": "Human settlements in avalanche-prone zones\nRural mountainous villages without early warning systems\nSettlements lacking forest cover\nSkiing populations and untrained tourists",
+    "disaster": "Avalanche",
+    "section": "vulnerable_areas"
+  },
+  {
+    "content": "Quick changes in weather, snowpack, and terrain\nIncreasing winter sport tourism and development\nClimate change",
+    "disaster": "Avalanche",
+    "section": "risk_factors"
+  },
+  {
+    "content": "Avoid construction in avalanche-prone areas\nImplement early warning systems at local and national levels\nProvide avalanche risk information at tourism offices\nPromote tree planting to prevent avalanches\nEstablish and enforce building codes\nRaise awareness and educate residents and tourists",
+    "disaster": "Avalanche",
+    "section": "risk_reduction_measures"
+  },
+  {
+    "content": "Early warning systems (e.g., EAWS)\nArtificial avalanche triggering using controlled explosions (e.g., SLF)\nDefensive structures to prevent avalanche formation\nDams to divert or intercept avalanches\nSnow sheds and physical protection for buildings",
+    "disaster": "Avalanche",
+    "section": "protection_and_control_measures"
+  },
+  {
+    "content": "before_avalanche: Listen to radio, watch TV, and read newspapers for weather updates\nStay indoors and suspend outdoor plans once warnings are issued\nAvoid steep slopes and critical areas\nKeep an evacuation plan ready and demarcate routes\nIn low danger zones, move cautiously and mark paths with cloth or sticks\nwhen_caught: Try to stay near the surface or move to the sides\nHold on to something sturdy\nCreate an air pocket with one hand to breathe\nBreathe calmly\nKnock on the surface regularly to alert rescuers\nDiscard all equipment to reduce drag\nArch hands over face to create air space\nas_survivor: Mark the location where others were last seen using visible items like poles or clothing\npreparation: Check forecasts and heed local warnings before setting out\nBe aware of avalanche signs and avoid risky areas if unsure",
+    "disaster": "Avalanche",
+    "section": "preparedness_guidelines"
+  }
+]
