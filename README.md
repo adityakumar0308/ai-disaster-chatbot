@@ -1,7 +1,3 @@
-Here's an improved version of your `README.md` with a more human-friendly tone, better structure, and the additional information included:
-
----
-
 # 🌪️ AI Disaster Chatbot
 
 A lightweight, AI-powered chatbot designed to assist users during natural disasters by providing crucial guidance, safety protocols, and actionable steps. Powered by **FastAPI**, **TinyLlama**, and **FAISS**, this chatbot combines real-world disaster knowledge with open-ended reasoning using a **Retrieval-Augmented Generation (RAG)** approach.
