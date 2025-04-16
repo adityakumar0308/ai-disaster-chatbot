@@ -36,7 +36,7 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
-Ensure you're using Python 3.10+ for compatibility.
+Ensure youre using Python 3.10+ for compatibility.
 
 🚀 Run the Server
 bash
