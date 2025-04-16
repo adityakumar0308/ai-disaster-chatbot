@@ -1,48 +1,36 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from sentence_transformers import SentenceTransformer, util
 import faiss
 import json
 import torch
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-from fastapi.middleware.cors import CORSMiddleware
-
-# Allow CORS (you can specify your Wix domain here)
+# CORS for all origins (replace with your domain for security)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Replace with ["https://yourwixdomain.com"] for more security
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-
-
-# Load embedding model
+# Load embedding model and index
 embed_model = SentenceTransformer("models/all-MiniLM-L6-v2")
-
-# Load FAISS index
 index = faiss.read_index("disaster_index.faiss")
-
-# Load metadata
 with open("disaster_metadata.json", "r", encoding="utf-8") as f:
     metadata = json.load(f)
 
-# Load TinyLlama model (4-bit quantized)
-model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-bnb_config = BitsAndBytesConfig(load_in_4bit=True, bnb_4bit_compute_dtype=torch.float16)
+# Load FLAN-T5 model
+model_name = "google/flan-t5-small"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForCausalLM.from_pretrained(
-    model_name,
-    quantization_config=bnb_config,
-    device_map="auto"
-)
+model = AutoModelForSeq2SeqLM.from_pretrained(model_name).to("cpu")
 model.eval()
 
-# Define request/response models
+# Request/response models
 class ChatRequest(BaseModel):
     query: str
 
@@ -50,21 +38,18 @@ class ChatResponse(BaseModel):
     answer: str
 
 # Generate chatbot response
-def generate_response(prompt, max_new_tokens=250):
+def generate_response(prompt, max_new_tokens=200):
     inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
     with torch.no_grad():
         outputs = model.generate(
             **inputs,
             max_new_tokens=max_new_tokens,
-            do_sample=True,
             temperature=0.7,
-            top_p=0.95,
-            pad_token_id=tokenizer.eos_token_id
+            top_p=0.95
         )
-    response_text = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
-    return response_text.split("Answer:")[-1].strip() if "Answer:" in response_text else response_text
+    return tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
 
-# Chat endpoint
+# API endpoint
 @app.post("/query", response_model=ChatResponse)
 def chat_endpoint(req: ChatRequest):
     user_query = req.query
@@ -78,18 +63,9 @@ def chat_endpoint(req: ChatRequest):
     SIM_THRESHOLD = 0.5
     if best_score >= SIM_THRESHOLD:
         selected_context = "\n".join(top_chunks)
-        prompt = (
-            f"You are a disaster management assistant. Use the context below to help the user.\n\n"
-            f"Context:\n{selected_context}\n\n"
-            f"Question: {user_query}\n"
-            f"Answer:"
-        )
+        prompt = f"Answer the question using the context.\n\nContext:\n{selected_context}\n\nQuestion: {user_query}\nAnswer:"
     else:
-        prompt = (
-            f"You are a helpful assistant. Respond conversationally.\n\n"
-            f"User: {user_query}\n"
-            f"Assistant:"
-        )
+        prompt = f"Answer the question as best as you can.\n\nQuestion: {user_query}\nAnswer:"
 
     answer = generate_response(prompt)
     return ChatResponse(answer=answer)
