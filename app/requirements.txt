@@ -4,5 +4,3 @@ transformers
 torch
 sentence-transformers
 faiss-cpu
-bitsandbytes
-accelerate
